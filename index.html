@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SpeakNow</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
+</head>
+
+<body>
+
+    <body>
+        <div class="container">
+
+            <div class="content">
+            <form class="mb-5">
+                <h1>SPEAK</h1>
+                <div>
+                    <textarea name="" id="text-input" placeholder="Type text"></textarea>
+                </div>
+                <div class="slider-group">
+                    <div class="slider-holder">
+                        <label class="label" for="rate">Rate</label>
+                        <div class="slider-val" id="rate-value">1</div>
+                        <input type="range" id="rate" min="0.5" max="2" value="1" step="0.1">
+                    </div>
+                    <div class="slider-holder">
+                        <label class="label" for="pitch">Pitch</label>
+                        <div class="slider-val" id="pitch-value">1</div>
+                        <input type="range" id="pitch" min="0" max="2" value="1" step="0.1">
+                    </div>
+                </div>
+                <div>
+                    <select id="voice-select"></select>
+                </div>
+                <button class="speak-btn">Speak</button>
+            </form>
+
+        </div>
+
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+
+</html>

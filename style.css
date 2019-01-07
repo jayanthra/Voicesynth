@@ -1,0 +1,59 @@
+body {
+    font-family: 'Viga', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+textarea {
+    width: 600px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.slider-group {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.slider-holder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.label {
+    font-size: 16px;
+}
+
+.slider-val {
+    font-weight: bold;
+    margin: 0 10px;
+    color: yellowgreen;
+}
+
+select {
+    height: 40px;
+    border-radius: 5px;
+}
+
+.speak-btn {
+    width: 90px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: none;
+    box-shadow: none;
+}
